@@ -1,0 +1,30 @@
+Line 27: Bad keyword integer
+Line 44: Bad keyword initial
+Line 45: begin without always/case
+Line 55: Bad keyword if
+Line 58: Bad keyword else
+Line 66: Bad keyword posedge
+Line 66: Always without case(x)
+Line 76: Bad keyword negedge
+Line 84: appears to be shifting by non-constant value: B
+Warning: Line 84 shifting by a constant value (ok except for HW2)
+Line 85: Bad keyword if
+Line 89: appears to be shifting by non-constant value: B
+Line 90: Bad keyword if
+Line 94: appears to be shifting by non-constant value: B
+Warning: Line 94 shifting by a constant value (ok except for HW2)
+Line 95: Bad keyword if
+Line 99: appears to be shifting by non-constant value: B
+Line 100: Bad keyword if
+Line 105: Bad keyword if
+Line 108: Bad keyword if
+Line 111: Bad keyword else
+Line 113: Bad keyword if
+Line 114: Bad keyword ||
+Line 115: Bad keyword ||
+Line 120: Bad keyword if
+Line 125: Bad keyword if
+Line 130: Bad keyword if
+Line 135: Bad keyword if
+Line 136: begin without always/case
+End of file /afs/cs.wisc.edu/u/m/u/munaf/cs552/project/demo2/verilog/alu_hier_bench.v. Hash = -355036806

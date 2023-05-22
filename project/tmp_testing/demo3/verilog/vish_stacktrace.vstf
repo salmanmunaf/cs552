@@ -1,0 +1,63 @@
+# transcript error: error writing "stdout": I/O error
+    while executing
+"puts -nonewline stdout $s"
+# Current time Sun Apr  3 17:13:14 2022
+# ModelSim DE Stack Trace
+# Program = vish
+# Id = "10.7c"
+# Version = "2018.08"
+# Date = "Aug 17 2018"
+# Platform = "linuxpe"
+# 0    0x0ad97699: '<unknown (@0xad97699)>'
+# 1    0xfffffffb: '<unknown (@0xfffffffb)>'
+# End of Stack Trace
+
+# Current time Sat Apr 23 17:49:57 2022
+# ModelSim DE Stack Trace
+# Program = vish
+# Id = "10.7c"
+# Version = "2018.08"
+# Date = "Aug 17 2018"
+# Platform = "linuxpe"
+# 0    0xf7d42b60: '<unknown (@0xf7d42b60)>'
+# 1    0xfffffffb: '<unknown (@0xfffffffb)>'
+# End of Stack Trace
+
+# Current time Thu Apr 28 16:39:41 2022
+# ModelSim DE Stack Trace
+# Program = vish
+# Id = "10.7c"
+# Version = "2018.08"
+# Date = "Aug 17 2018"
+# Platform = "linuxpe"
+# 0    0xf7d42b60: '<unknown (@0xf7d42b60)>'
+# 1    0xfffffffb: '<unknown (@0xfffffffb)>'
+# End of Stack Trace
+
+# Current time Thu Apr 28 17:21:12 2022
+# ModelSim DE Stack Trace
+# Program = vish
+# Id = "10.7c"
+# Version = "2018.08"
+# Date = "Aug 17 2018"
+# Platform = "linuxpe"
+# 0    0x0073726f: '<unknown (@0x73726f)>'
+# Current time Sat Apr 30 22:41:11 2022
+# ModelSim DE Stack Trace
+# Program = vish
+# Id = "10.7c"
+# Version = "2018.08"
+# Date = "Aug 17 2018"
+# Platform = "linuxpe"
+# 0    0xf7d42b60: '<unknown (@0xf7d42b60)>'
+# 1    0xfffffffb: '<unknown (@0xfffffffb)>'
+# End of Stack Trace
+
+# Current time Sun May  1 18:19:20 2022
+# ModelSim DE Stack Trace
+# Program = vish
+# Id = "10.7c"
+# Version = "2018.08"
+# Date = "Aug 17 2018"
+# Platform = "linuxpe"
+# 0    0x00000020: '<unknown (@0x20)>'

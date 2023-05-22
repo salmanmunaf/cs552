@@ -1,0 +1,12 @@
+Q: Write an explanation of your programs including where and why forwarding takes place.
+
+The programs p1-1.asm, p1-2.asm and p1-3.asm test X->X, M->X, RF bypassing respectively. I have added the comments as well inside the files which indicate where the forwarding is taking place and the expected values inside the register.
+
+p1-1.asm:
+This mainly tests the X->X forwarding problems. If the forwarding is correctly implemented register r6 will be equal to 1. In this file, register r4 is written by the ADD instruction on line 14 and it is read by SEQ instruction on line 15. As these are consecutive instructions, they test the X->X forwarding. 
+
+p1-2.asm:
+This mainly tests the M->X forwarding problems. If the forwarding is correctly implemented register r6 will be equal to 1. In this file, register r4 is written by the ADD instruction on line 14 and it is read by SEQ instruction on line 16. As these instructions are seperated by a single instruction, they test the M->X forwarding.
+
+p1-3.asm:
+This mainly tests the RF bypassing problems. If the forwarding is correctly implemented register r6 will be equal to 1. In this file, register r4 is written by the ADD instruction on line 14 and it is read by SEQ instruction on line 17. As these instructions are seperated by two instructions, they test the RF bypassing.

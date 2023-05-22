@@ -1,0 +1,9 @@
+Line 17: Bad keyword initial
+Line 18: begin without always/case
+Line 24: Bad keyword posedge
+Line 24: Always without case(x)
+Line 30: Bad keyword negedge
+Line 34: Bad keyword if
+Line 35: Bad keyword if
+Line 30: Always without case(x)
+End of file /afs/cs.wisc.edu/u/m/u/munaf/cs552/project/demo3/verilog/cla_16b_bench.v. Hash = 2002777869

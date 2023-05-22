@@ -1,0 +1,9 @@
+Line 21: Bad keyword initial
+Line 22: begin without always/case
+Line 28: Bad keyword posedge
+Line 28: Always without case(x)
+Line 34: Bad keyword negedge
+Line 38: Bad keyword if
+Line 39: Bad keyword if
+Line 34: Always without case(x)
+End of file /u/m/u/munaf/cs552/project/demo1/verilog/fullAdder_tb.v. Hash = 1006784629

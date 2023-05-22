@@ -1,0 +1,23 @@
+Line 26: Bad keyword integer
+Line 33: Bad keyword initial
+Line 34: begin without always/case
+Line 40: Bad keyword if
+Line 43: Bad keyword else
+Line 47: Bad keyword posedge
+Line 47: Always without case(x)
+Line 54: Bad keyword negedge
+Line 57: appears to be shifting by non-constant value: ShAmt
+Warning: Line 57 shifting by a constant value (ok except for HW2)
+Line 59: Bad keyword if
+Line 66: Bad keyword else
+Line 75: appears to be shifting by non-constant value: ShAmt
+Line 77: Bad keyword if
+Line 84: Bad keyword else
+Line 93: appears to be shifting by non-constant value: ShAmt
+Warning: Line 93 shifting by a constant value (ok except for HW2)
+Line 95: Bad keyword if
+Line 102: Bad keyword else
+Line 111: appears to be shifting by non-constant value: ShAmt
+Line 113: Bad keyword if
+Line 120: Bad keyword else
+End of file /afs/cs.wisc.edu/u/m/u/munaf/cs552/project/demo2/verilog/shifter_hier_bench.v. Hash = -962225723

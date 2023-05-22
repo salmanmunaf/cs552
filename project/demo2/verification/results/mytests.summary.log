@@ -1,0 +1,8 @@
+/u/m/u/munaf/cs552/project/demo2/verification/mytests/p1-1.asm SUCCESS CPI:1.8 CYCLES:20 ICOUNT:11 IHITRATE: 0 DHITRATE: 0
+/u/m/u/munaf/cs552/project/demo2/verification/mytests/p1-2.asm SUCCESS CPI:1.7 CYCLES:20 ICOUNT:12 IHITRATE: 0 DHITRATE: 0
+/u/m/u/munaf/cs552/project/demo2/verification/mytests/p1-3.asm SUCCESS CPI:1.5 CYCLES:20 ICOUNT:13 IHITRATE: 0 DHITRATE: 0
+/u/m/u/munaf/cs552/project/demo2/verification/mytests/p2-1.asm SUCCESS CPI:2.1 CYCLES:19 ICOUNT:9 IHITRATE: 0 DHITRATE: 0
+/u/m/u/munaf/cs552/project/demo2/verification/mytests/p2-2.asm SUCCESS CPI:1.8 CYCLES:18 ICOUNT:10 IHITRATE: 0 DHITRATE: 0
+/u/m/u/munaf/cs552/project/demo2/verification/mytests/test1.asm SUCCESS CPI:6.2 CYCLES:37 ICOUNT:6 IHITRATE: 0 DHITRATE: 0
+/u/m/u/munaf/cs552/project/demo2/verification/mytests/test2.asm SUCCESS CPI:3.2 CYCLES:13 ICOUNT:4 IHITRATE: 0 DHITRATE: 0
+/u/m/u/munaf/cs552/project/demo2/verification/mytests/test3.asm SUCCESS CPI:4.5 CYCLES:18 ICOUNT:4 IHITRATE: 0 DHITRATE: 0

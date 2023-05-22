@@ -1,0 +1,242 @@
+Program 0 /u/s/i/sinclair/public/html/courses/cs552/spring2022/handouts/testprograms/public/inst_tests/lbi_0.asm
+-------------------------------------------------
+Step: 1
+Compiling /u/s/i/sinclair/public/html/courses/cs552/spring2022/handouts/testprograms/public/inst_tests/lbi_0.asm
+Full name to pass to Assemble.java: /u/s/i/sinclair/public/html/courses/cs552/spring2022/handouts/testprograms/public/inst_tests/lbi_0.asm
+Created the following files
+loadfile_0.img
+loadfile_1.img
+loadfile_2.img
+loadfile_3.img
+loadfile_all.img
+loadfile.lst
+Skipping final_memory.syn.v, seems like a file meant for synthesis
+Skipping memc.syn.v, seems like a file meant for synthesis
+Skipping memory2c_align.syn.v, seems like a file meant for synthesis
+Skipping memory2c.syn.v, seems like a file meant for synthesis
+Skipping memv.syn.v, seems like a file meant for synthesis
+Skipping stallmem.syn.v, seems like a file meant for synthesis
+-------------------------------------------------
+Step: 2
+Compiling the following verilog files: alu_full_hier_bench.v alu_full_hier.v alu_full.v alu_hier_bench.v alu_hier.v alu.v and2.v and3.v and4.v and5.v bigG.v branch_unit.v cache.v carryLogic16.v carryLogic4.v cla_16b_bench.v cla_16b.v cla_4b.v clkrst.v control.v decoder2_to_4.v decoder3_to_8.v decode.v detect_hazard.v dff.v execute.v ex_mem.v fetch.v final_memory.v four_bank_mem.v fullAdder_1b.v fullAdder_tb.v id_ex.v if_id.v mem_control_copy.v mem_control.v memc.v memory2c_align.v memory2c.v memory.v mem_system_hier.v mem_system_perfbench.v mem_system_randbench.v mem_system_ref.v mem_system.v memv.v mem_wb.v mux2_1_16b.v mux2_1.v mux4_1.v mux8_1_16b_bench.v mux8_1_16b.v mux8_1.v nand2.v nand3.v nor2.v nor3.v not1.v or2.v or3.v or4.v or5.v PFA.v proc_hier_bench.v proc_hier_pbench.v proc_hier.v proc.v reg_16b.v regFile_bypass.v regFile_hier.v regFile.v shifter1.v shifter2.v shifter4.v shifter8.v shifter_hier_bench.v shifter_hier.v shifter.v stallmem.v tb_regFile_hier.v wb.v xor2.v xor3.v 
+Top module: proc_hier_pbench
+Compilation log in wsrun.log
+rm: cannot remove 'wsrun.log': No such file or directory
+Executing rm -rf __work dump.wlf dump.vcd diff.trace diff.ptrace archsim.trace archsim.ptrace verilogsim.trace verilogsim.ptrace
+Executing vlib __work
+Executing vlog +define+RANDSEED=3 -work __work alu_full_hier_bench.v alu_full_hier.v alu_full.v alu_hier_bench.v alu_hier.v alu.v and2.v and3.v and4.v and5.v bigG.v branch_unit.v cache.v carryLogic16.v carryLogic4.v cla_16b_bench.v cla_16b.v cla_4b.v clkrst.v control.v decoder2_to_4.v decoder3_to_8.v decode.v detect_hazard.v dff.v execute.v ex_mem.v fetch.v final_memory.v four_bank_mem.v fullAdder_1b.v fullAdder_tb.v id_ex.v if_id.v mem_control_copy.v mem_control.v memc.v memory2c_align.v memory2c.v memory.v mem_system_hier.v mem_system_perfbench.v mem_system_randbench.v mem_system_ref.v mem_system.v memv.v mem_wb.v mux2_1_16b.v mux2_1.v mux4_1.v mux8_1_16b_bench.v mux8_1_16b.v mux8_1.v nand2.v nand3.v nor2.v nor3.v not1.v or2.v or3.v or4.v or5.v PFA.v proc_hier_bench.v proc_hier_pbench.v proc_hier.v proc.v reg_16b.v regFile_bypass.v regFile_hier.v regFile.v shifter1.v shifter2.v shifter4.v shifter8.v shifter_hier_bench.v shifter_hier.v shifter.v stallmem.v tb_regFile_hier.v wb.v xor2.v xor3.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+Start time: 18:47:51 on May 01,2022
+vlog "+define+RANDSEED=3" -work __work alu_full_hier_bench.v alu_full_hier.v alu_full.v alu_hier_bench.v alu_hier.v alu.v and2.v and3.v and4.v and5.v bigG.v branch_unit.v cache.v carryLogic16.v carryLogic4.v cla_16b_bench.v cla_16b.v cla_4b.v clkrst.v control.v decoder2_to_4.v decoder3_to_8.v decode.v detect_hazard.v dff.v execute.v ex_mem.v fetch.v final_memory.v four_bank_mem.v fullAdder_1b.v fullAdder_tb.v id_ex.v if_id.v mem_control_copy.v mem_control.v memc.v memory2c_align.v memory2c.v memory.v mem_system_hier.v mem_system_perfbench.v mem_system_randbench.v mem_system_ref.v mem_system.v memv.v mem_wb.v mux2_1_16b.v mux2_1.v mux4_1.v mux8_1_16b_bench.v mux8_1_16b.v mux8_1.v nand2.v nand3.v nor2.v nor3.v not1.v or2.v or3.v or4.v or5.v PFA.v proc_hier_bench.v proc_hier_pbench.v proc_hier.v proc.v reg_16b.v regFile_bypass.v regFile_hier.v regFile.v shifter1.v shifter2.v shifter4.v shifter8.v shifter_hier_bench.v shifter_hier.v shifter.v stallmem.v tb_regFile_hier.v wb.v xor2.v xor3.v 
+-- Compiling module alu_full_hier_bench
+-- Compiling module alu_full_hier
+-- Compiling module alu_full
+-- Compiling module alu_hier_bench
+-- Compiling module alu_hier
+-- Compiling module alu
+-- Compiling module and2
+-- Compiling module and3
+-- Compiling module and4
+-- Compiling module and5
+-- Compiling module bigG
+-- Compiling module branch_unit
+-- Compiling module cache
+-- Compiling module carryLogic16
+-- Compiling module carryLogic4
+-- Compiling module cla_16b_bench
+-- Compiling module cla_16b
+-- Compiling module cla_4b
+-- Compiling module clkrst
+-- Compiling module control
+-- Compiling module decoder2_to_4
+-- Compiling module decoder3_to_8
+-- Compiling module decode
+-- Compiling module detect_hazard
+-- Compiling module dff
+-- Compiling module execute
+-- Compiling module ex_mem
+-- Compiling module fetch
+-- Compiling module final_memory
+-- Compiling module four_bank_mem
+-- Compiling module fullAdder_1b
+-- Compiling module fullAdder_tb
+-- Compiling module id_ex
+-- Compiling module if_id
+-- Compiling module mem_control_copy
+-- Compiling module mem_control
+-- Compiling module memc
+-- Compiling module memory2c_align
+-- Compiling module memory2c
+-- Compiling module memory
+-- Compiling module mem_system_hier
+-- Compiling module mem_system_perfbench
+-- Compiling module mem_system_randbench
+-- Compiling module mem_system_ref
+-- Compiling module mem_system
+-- Compiling module memv
+-- Compiling module mem_wb
+-- Compiling module mux2_1_16b
+-- Compiling module mux2_1
+-- Compiling module mux4_1
+-- Compiling module mux8_1_16b_bench
+-- Compiling module mux8_1_16b
+-- Compiling module mux8_1
+-- Compiling module nand2
+-- Compiling module nand3
+-- Compiling module nor2
+-- Compiling module nor3
+-- Compiling module not1
+-- Compiling module or2
+-- Compiling module or3
+-- Compiling module or4
+-- Compiling module or5
+-- Compiling module PFA
+-- Compiling module proc_hier_bench
+-- Compiling module proc_hier_pbench
+-- Compiling module proc_hier
+-- Compiling module proc
+-- Compiling module reg_16b
+-- Compiling module regFile_bypass
+-- Compiling module regFile_hier
+-- Compiling module regFile
+-- Compiling module shifter1
+-- Compiling module shifter2
+-- Compiling module shifter4
+-- Compiling module shifter8
+-- Compiling module shifter_hier_bench
+-- Compiling module shifter_hier
+-- Compiling module shifter
+-- Compiling module stallmem
+-- Compiling module tb_regFile_hier
+-- Compiling module wb
+-- Compiling module xor2
+-- Compiling module xor3
+
+Top level modules:
+	alu_full_hier_bench
+	alu_hier_bench
+	cla_16b_bench
+	fullAdder_tb
+	mem_control_copy
+	memory2c_align
+	memory2c
+	mem_system_perfbench
+	mem_system_randbench
+	mux8_1_16b_bench
+	proc_hier_bench
+	proc_hier_pbench
+	shifter_hier_bench
+	stallmem
+	tb_regFile_hier
+	xor3
+End time: 18:47:51 on May 01,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+-------------------------------------------------
+Step: 3
+Running Verilog simulation...details in wsrun.log
+Reading pref.tcl
+
+# 10.7c
+
+# vsim -c proc_hier_pbench -lib __work -voptargs="+acc" -wlf dump.wlf -do "log -howmany -rec /* ; run -all" 
+# Start time: 18:47:52 on May 01,2022
+# //  ModelSim DE 10.7c Aug 17 2018Linux 5.4.0-109-generic
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading __work.proc_hier_pbench
+# Loading __work.proc_hier
+# Loading __work.clkrst
+# Loading __work.proc
+# Loading __work.fetch
+# Loading __work.reg_16b
+# Loading __work.mem_system
+# Loading __work.cache
+# Loading __work.memc
+# Loading __work.memv
+# Loading __work.four_bank_mem
+# Loading __work.final_memory
+# Loading __work.dff
+# Loading __work.mem_control
+# Loading __work.cla_16b
+# Loading __work.carryLogic16
+# Loading __work.and4
+# Loading __work.nand2
+# Loading __work.nor2
+# Loading __work.bigG
+# Loading __work.and2
+# Loading __work.not1
+# Loading __work.and3
+# Loading __work.nand3
+# Loading __work.or4
+# Loading __work.or2
+# Loading __work.or3
+# Loading __work.nor3
+# Loading __work.and5
+# Loading __work.or5
+# Loading __work.cla_4b
+# Loading __work.carryLogic4
+# Loading __work.PFA
+# Loading __work.xor2
+# Loading __work.if_id
+# Loading __work.decode
+# Loading __work.control
+# Loading __work.regFile_bypass
+# Loading __work.regFile
+# Loading __work.decoder3_to_8
+# Loading __work.decoder2_to_4
+# Loading __work.mux8_1_16b
+# Loading __work.detect_hazard
+# Loading __work.id_ex
+# Loading __work.execute
+# Loading __work.shifter
+# Loading __work.shifter1
+# Loading __work.mux4_1
+# Loading __work.mux2_1
+# Loading __work.mux2_1_16b
+# Loading __work.shifter2
+# Loading __work.shifter4
+# Loading __work.shifter8
+# Loading __work.alu_full
+# Loading __work.alu
+# Loading __work.branch_unit
+# Loading __work.ex_mem
+# Loading __work.memory
+# Loading __work.mem_wb
+# Loading __work.wb
+# Loading __work.mux8_1
+# log -howmany -rec /* 
+# 23745
+#  run -all
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.ptrace for output
+# ** Note: $finish    : proc_hier_pbench.v(115)
+#    Time: 3205 ns  Iteration: 0  Instance: /proc_hier_pbench
+# End time: 18:47:53 on May 01,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+-------------------------------------------------
+Step: 4
+Verilog simulation successful
+See verilogsim.log and verilogsim.ptrace for output
+Created a dump file dump.wlf.
+To view waveforms, open with
+vsim -view dataset=dump.wlf
+-------------------------------------------------
+Step: 5
+Running arch simulator wiscalculator...
+-------------------------------------------------
+Step: 6
+Comparing arch simulation trace against verilog simulation trace
+SUCCESS. Simulations match for /u/s/i/sinclair/public/html/courses/cs552/spring2022/handouts/testprograms/public/inst_tests/lbi_0.asm.
+-------------------------------------------------
+Final log, saved in summary.log
+/u/s/i/sinclair/public/html/courses/cs552/spring2022/handouts/testprograms/public/inst_tests/lbi_0.asm SUCCESS CPI:5.5 CYCLES:33 ICOUNT:6 IHITRATE: 75.0 DHITRATE: 0

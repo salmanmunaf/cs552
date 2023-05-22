@@ -1,0 +1,16 @@
+victimway: 1
+Store Miss for Address 120 in way 0
+victimway: 0
+Store Hit for Address 122 in way 0
+victimway: 1
+Store Hit for Address 124 in way 0
+victimway: 0
+Store Hit for Address 126 in way 0
+victimway: 1
+Load Hit for Address 126 in way 0
+victimway: 0
+Load Hit for Address 124 in way 0
+victimway: 1
+Load Hit for Address 122 in way 0
+victimway: 0
+Load Hit for Address 120 in way 0

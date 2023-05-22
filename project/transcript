@@ -1,0 +1,8 @@
+# vsim -c mem_system_randbench -lib __work -voptargs="+acc" -wlf dump.wlf -do "log -howmany -rec /* ; run -all" 
+# Start time: 17:04:25 on Apr 18,2022
+# ** Error: (vsim-3170) Could not find 'mem_system_randbench'.
+#         Searched libraries:
+#             /afs/cs.wisc.edu/u/m/u/munaf/cs552/project/__work
+# Error loading design
+# End time: 17:04:25 on Apr 18,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

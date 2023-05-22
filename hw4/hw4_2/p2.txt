@@ -1,0 +1,11 @@
+Q: Write an explanation of your programs and how branch prediction helps?
+The programs p2-1.asm and p2-2.asm test the implications of correct and incorrect branch predictions. In program p2-1.asm the branch prediction is incorrect leading to flushing the instructions whereas, in program p2-2.asm the branch prediction is correct and there are no stalls or flushes. 
+
+p2-1.asm:
+This mainly tests the incorrect branch prediction (branch is taken whereas the processor predicts branch will not be taken and flushes the instructions). In this program the branch is taken on line 14 whereas the processor predicts that the branch will not be taken. Due to this, the ANDN instructions on line 15 and 16 will be flushed. If the program runs correctly, the register r4 should have 0 otherwise it will have 1.
+
+p2-2.asm:
+This mainly tests the correct branch prediction (branch is not taken and the processor predicts branch not taken and leads to no flushes and stalls). In this program the branch is not taken on line 14 and the processor predicts it correctly. Due to this, the ANDN instructions on line 15 and 16 will be executed without any stalls. If the program runs correctly, the register r4 should have 1 otherwise it will have 0.
+
+Q: Will branch prediction always take only 1 cycle?
+The branch prediction takes one cycle in a 5 stage pipeline processor where branches are decoded in Decode stage and executed in Execute stage. However, it is not necessary for the branch prediction to take only 1 cycle because there could be a processor where the decode and execute stages are divided into multiple pipeline stages so the branch prediction will take the amount of cycles equivalent to the number of stages in between. Moreover, there could be a case where the branch execution can take multiple cycles so that could increase the number of cycles.
